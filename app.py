@@ -1,7 +1,11 @@
 from Ejercicios import Punto1 as Pt1
 from Ejercicios import Punto2 as Pt2
 from Ejercicios import Punto3 as Pt3
-
+from Ejercicios import Punto4 as Pt4
+from Ejercicios import Punto5 as Pt5
+from Ejercicios import Punto6 as Pt6
+from Ejercicios import Punto7 as Pt7
+from Ejercicios import Punto8 as Pt8
 
 while True:
     print("Opcion 1: Punto1 ")
@@ -31,6 +35,9 @@ while True:
 
     elif (opcion==3):
         print(Pt3.lista_alea())
+        opcion=int(input("Ingrese cualquier numero para volver al menú "))
+    elif (opcion==4):
+        print(Pt4.par_o_impar())
         opcion=int(input("Ingrese cualquier numero para volver al menú "))
 
 
