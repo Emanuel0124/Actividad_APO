@@ -1,6 +1,6 @@
 from Ejercicios import Punto1 as Pt1
 from Ejercicios import Punto2 as Pt2
-
+from Ejercicios import Punto3 as Pt3
 
 
 while True:
@@ -30,6 +30,7 @@ while True:
         opcion=int(input("Ingrese cualquier numero para volver al menú "))
 
     elif (opcion==3):
-        print(())
+        print(Pt3.lista_alea())
         opcion=int(input("Ingrese cualquier numero para volver al menú "))
+
 
