@@ -12,7 +12,7 @@ from Ejercicios import Punto11 as Pt11
 from Ejercicios import Punto12 as Pt12
 from Ejercicios import Punto13 as Pt13
 from Ejercicios import Punto14 as Pt14
-"""from Ejercicios import Punto15 as Pt15"""
+from Ejercicios import Punto15 as Pt15
 
 while True:
     print("Opcion 1: Punto1 ")
@@ -76,10 +76,10 @@ while True:
     elif (opcion==14):
         print(Pt14.media_aritmetica())
         opcion=int(input("Ingrese cualquier numero para volver al menú "))
-    """elif (opcion==12):
-        print(Pt12.lista_numeros_uno_al_diez())
+    elif (opcion==15):
+        print(Pt15.Palindormo_texto())
         opcion=int(input("Ingrese cualquier numero para volver al menú "))
-    elif (opcion==12):
+    """elif (opcion==12):
         print(Pt12.lista_numeros_uno_al_diez())
         opcion=int(input("Ingrese cualquier numero para volver al menú "))"""
 
