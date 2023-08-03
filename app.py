@@ -7,9 +7,9 @@ from Ejercicios import Punto6 as Pt6
 from Ejercicios import Punto7 as Pt7
 from Ejercicios import Punto8 as Pt8
 from Ejercicios import Punto9 as Pt9
-"""from Ejercicios import Punto3 as Pt10
-from Ejercicios import Punto4 as Pt11
-from Ejercicios import Punto5 as Pt12
+from Ejercicios import Punto10 as Pt10
+from Ejercicios import Punto11 as Pt11
+"""from Ejercicios import Punto5 as Pt12
 from Ejercicios import Punto6 as Pt13
 from Ejercicios import Punto7 as Pt14
 from Ejercicios import Punto8 as Pt15"""
@@ -61,13 +61,13 @@ while True:
     elif (opcion==9):
         print(Pt9.matriz_aleatoria())
         opcion=int(input("Ingrese cualquier numero para volver al menú "))
+    elif (opcion==10):
+        print(Pt10.factorial_de_un_numero())
+        opcion=int(input("Ingrese cualquier numero para volver al menú "))
+    elif (opcion==11):
+        print(Pt11())
+        opcion=int(input("Ingrese cualquier numero para volver al menú "))
     """elif (opcion==8):
-        print(Pt8.invertir_lista_dada())
-        opcion=int(input("Ingrese cualquier numero para volver al menú "))
-    elif (opcion==8):
-        print(Pt8.invertir_lista_dada())
-        opcion=int(input("Ingrese cualquier numero para volver al menú "))
-    elif (opcion==8):
         print(Pt8.invertir_lista_dada())
         opcion=int(input("Ingrese cualquier numero para volver al menú "))"""
 
