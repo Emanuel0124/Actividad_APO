@@ -5,7 +5,7 @@ from Ejercicios import Punto4 as Pt4
 from Ejercicios import Punto5 as Pt5
 from Ejercicios import Punto6 as Pt6
 from Ejercicios import Punto7 as Pt7
-"""from Ejercicios import Punto8 as Pt8"""
+from Ejercicios import Punto8 as Pt8
 
 while True:
     print("Opcion 1: Punto1 ")
@@ -48,5 +48,7 @@ while True:
     elif (opcion==7):
         print(Pt7.numero_mayor_y_numero_menor_de_lista())
         opcion=int(input("Ingrese cualquier numero para volver al menú "))
-
+    elif (opcion==8):
+        print(Pt8.invertir_lista_dada())
+        opcion=int(input("Ingrese cualquier numero para volver al menú "))
 
