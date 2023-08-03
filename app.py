@@ -3,8 +3,8 @@ from Ejercicios import Punto2 as Pt2
 from Ejercicios import Punto3 as Pt3
 from Ejercicios import Punto4 as Pt4
 from Ejercicios import Punto5 as Pt5
-"""from Ejercicios import Punto6 as Pt6
-from Ejercicios import Punto7 as Pt7
+from Ejercicios import Punto6 as Pt6
+"""from Ejercicios import Punto7 as Pt7
 from Ejercicios import Punto8 as Pt8"""
 
 while True:
@@ -41,6 +41,9 @@ while True:
         opcion=int(input("Ingrese cualquier numero para volver al menú "))
     elif (opcion==5):
         print(Pt5.Pasar_grados())
+        opcion=int(input("Ingrese cualquier numero para volver al menú "))
+    elif (opcion==6):
+        print(Pt6.suma_de_una_lista_dada())
         opcion=int(input("Ingrese cualquier numero para volver al menú "))
 
 
