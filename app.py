@@ -68,6 +68,6 @@ while True:
         print(Pt11.lista_numeros_pares())
         opcion=int(input("Ingrese cualquier numero para volver al menú "))
     elif (opcion==12):
-        print(Pt12())
+        print(Pt12.lista_numeros_uno_al_diez())
         opcion=int(input("Ingrese cualquier numero para volver al menú "))
 

@@ -1,5 +1,5 @@
 def Area_circulo ():
-    Radio = float(input("Ingrese el radi del circulo: "))
+    Radio = float(input("Ingrese el radio del circulo: "))
 
     Area=Radio*Radio*3.14
 
