@@ -79,7 +79,9 @@ while True:
     elif (opcion==15):
         print(Pt15.Palindormo_texto())
         opcion=int(input("Ingrese cualquier numero para volver al menú "))
-    """elif (opcion==12):
-        print(Pt12.lista_numeros_uno_al_diez())
-        opcion=int(input("Ingrese cualquier numero para volver al menú "))"""
+    elif (opcion==16):
+        print("El programa se cerró y Lugel es el mejor profe de la U :D")
+        break
+        
+        
 
